@@ -1,0 +1,49 @@
+font-sil-ezra
+------------------------------------------
+Ezra SIL is a typeface fashioned after the square letter forms of the 
+typography of the Biblia Hebraica Stuttgartensia (BHS), a beautiful Old 
+Testament volume familiar to Biblical Hebrew scholars. The Ezra SIL font 
+is an OpenType font.
+
+Canonical website:
+  http://scripts.sil.org/EzraSIL_Home
+
+Canonical download:
+  http://scripts.sil.org/SILHebrUnic2
+
+-------------------------------------------
+
+Build instructions:
+  unpack font-sil-ezra-2.51-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./font-sil-ezra-2.51-X.cygport all
+
+This will create:
+  /usr/src/font-sil-ezra-2.51-X-src.tar.bz2
+  /usr/src/font-sil-ezra-2.51-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/font-sil-ezra.sh
+  /usr/share/doc/font-sil-ezra-2.51/FONTLOG.txt
+  /usr/share/doc/font-sil-ezra-2.51/Filelist.txt
+  /usr/share/doc/font-sil-ezra-2.51/Licenses.txt
+  /usr/share/doc/font-sil-ezra-2.51/OFL-FAQ.txt
+  /usr/share/doc/font-sil-ezra-2.51/README.txt
+  /usr/share/fonts/TTF/SILEOT.ttf
+  /usr/share/fonts/TTF/SILEOTSR.ttf
+
+------------------
+
+Port Notes:
+
+----- version 2.51-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
